@@ -1,4 +1,4 @@
-//blizard.js version 0.1 BETA
+//blizard.js version 0.1 BETA by Rohan Samra-O'Neill
 "use strict";
 
 var sl = {};
