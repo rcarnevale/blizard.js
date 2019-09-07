@@ -51,6 +51,3 @@ larger
 sl.setlocalstorage = function(sel, sel2) {
   localStorage.setItem(sel, sel2);
 }
-sl.getlocalstorage = function(sel) {
-    localStorage.getItem(sel);
-}
