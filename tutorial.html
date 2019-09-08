@@ -40,6 +40,12 @@ larger
  function f1() {
     alert('i love blizard.js');
  }
+ // with sl.setlocalstorage the first parameter is the name of your localstorge item so that you can refer to it later, the second parameter is the value of your item.
+sl.setlocalstorage("name", "smith");
+
+// with sl.printlocalstorage the first parameter is the name of the localstorge item you want to print the value of, the second parameter is the id of the element you want to print the item's value to.
+
+sl.printlocalstorage("name", "p1")
     </script>
 </body>
 </html>
