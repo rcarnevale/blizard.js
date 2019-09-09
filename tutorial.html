@@ -1,11 +1,11 @@
 
-<html>
-<head>
+
+   <head>
 </head>
 <body>
     <p id="p1"></p>
     <!--the code below is the link to the blizard.js library-->
-    <script src="blizardjs.ueuo.com/blizard.js"></script>
+    <script src="lizard.js"></script>
     
     
     <script>
@@ -43,9 +43,9 @@ larger
  // with sl.setlocalstorage the first parameter is the name of your localstorge item so that you can refer to it later, the second parameter is the value of your item.
 sl.setlocalstorage("name", "smith");
 
-// with sl.printlocalstorage the first parameter is the name of the localstorge item you want to print the value of, the second parameter is the id of the element you want to print the item's value to.
+// with sl.printlocalstorage the second parameter is the name of the localstorge item you want to print the value of, the first parameter is the id of the element you want to print the item's value to.
 
-sl.printlocalstorage("name", "p1")
+sl.printlocalstorage("p1", "name")
     </script>
 </body>
 </html>
