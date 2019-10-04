@@ -17,15 +17,15 @@ with sl.hide the parameter is the id of the element you want to hide
 ` sl.family("p1", "Impact,Charcoal,sans-serif");`
  with sl.size the first parameter is the id of the element you want to change the size of, the second parameter is the size you want to change it to these are the sizes you can use
 
-xx-small
-x-small
-small
-medium
-large
-x-large
-xx-large
-smaller	
-larger
+.xx-small
+.x-small
+.small
+.medium
+.large
+.x-large
+.xx-large
+.smaller	
+.larger
 
 ` sl.size("p1", "medium");`
  
