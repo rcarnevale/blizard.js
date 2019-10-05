@@ -44,3 +44,4 @@ with sl.wait the first parameter is where you call the function you want to run,
 With sl.click the first parameter is the id of the element you would like to add an onclick event to, the second parameter is the function you want to run when that element is clicked.
 ` sl.click("p", "click()");`
 With sl.id the first parameter is the id of the element you want to change the id of, the second parameter is the new id you would like to give that element, this can be used to change styles over time without using javascript
+# please report any issues you have with the tutorial or just with the library at all and the blizard.js team(me) will fix it to make your experiense with blizard.js better.
