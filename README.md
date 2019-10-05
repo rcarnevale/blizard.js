@@ -5,6 +5,9 @@ the brand new javascript library.
 the code below is the link to the blizard.js library
         `<script src="http://blizardjs.ueuo.com/blizard.js"></script>`
 –––––
+For blizard.js' main feature DOM manipulation you will need your code to run when the page is loaded for that you will need to use sl.ready
+`sl.ready("main()")`
+The parameter in sl.ready is the function where your code is running, for DOM manipulation with blizard.js to be sucsesfull you will need to put your DOM functions in a function that is called by sl.ready.
         with sl.print the first parameter is the id of the element you want to change the second is the text you want to change it to
 `sl.print("p", "hi")`
 with sl.hide the parameter is the id of the element you want to hide
@@ -38,3 +41,6 @@ with sl.wait the first parameter is where you call the function you want to run,
 `sl.setlocalstorage("name", "smith");`
  with sl.printlocalstorage the second parameter is the name of the localstorge item you want to print the value of, the first parameter is the id of the element you want to print the item's value to.
 `sl.printlocalstorage("p1", "name")`
+With sl.click the first parameter is the id of the element you would like to add an onclick event to, the second parameter is the function you want to run when that element is clicked.
+` sl.click("p", "click()");`
+With sl.id the first parameter is the id of the element you want to change the id of, the second parameter is the new id you would like to give that element, this can be used to change styles over time without using javascript
