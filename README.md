@@ -1,7 +1,7 @@
 # blizard.js
 the brand new javascript library. Read tutorial.html to learn the library this is a html file made in blizard.js to teach you the library.
 # THIS LIBRARY IS NOT FULLY FINISHED AND YOU ARE WELCOME TO HELP WITH IT
-#tutorial
+# tutorial
 the code below is the link to the blizard.js library
         `<script src="http://blizardjs.ueuo.com/blizard.js"></script>`
 –––––
