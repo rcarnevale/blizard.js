@@ -1,6 +1,10 @@
 
 
-//blizard.js version 0.4 BETA by Rohan Samra-O'Neill
+
+   //blizard.js version 0.4 BETA by Rohan Samra-O'Neill
+/* 
+uses the atomo.css library created by Rohan Samra-O'Neill
+*/
 "use strict";
 //inspired by jquery and p5.js :), thanks to p5.js and the processing team for featuring blizard.js on there site
 var sl = {};
@@ -85,4 +89,56 @@ document.getElementById(sel).onclick = function() { window.setTimeout(sel2, 0); 
 // with sl.id the first parameter is the id of the element you want to change the id of, the second parameter is the new id of that element
 sl.id = function(sel, sel1) {
    document.getElementById(sel).id = sel1;
+}
+//from line 92 - 124 i think i liked inporting other librarys too much
+//just loads the atomo.css library for styles
+sl.atomo = function () {
+   var head = document.getElementsByTagName('HEAD')[0];  
+  
+   // Create new link Element 
+   var link = document.createElement('link'); 
+
+   // set the attributes for link element  
+   link.rel = 'stylesheet';  
+ 
+   link.type = 'text/css'; 
+ //load atomo.css library
+   link.href = "http://atomo.ueuo.com/atomo.css";  
+
+   // Append link element to HTML head 
+   head.appendChild(link);  
+}
+//sl.import does not work yet :(
+sl.import = function(sel) {
+   var head = document.getElementsByTagName('HEAD')[0];  
+  
+   // Create new link Element 
+   var link = document.createElement('link'); 
+
+   // set the attributes for link element  
+   link.rel = 'stylesheet';  
+ 
+   link.type = 'text/css'; 
+ 
+   link.href = sel;  
+
+   // Append link element to HTML head 
+   head.appendChild(link);  
+} 
+
+//I have wanted to add this since version 0.0.1 but didn't know how but now i do know how so i'll add it.
+
+//with sl.createElement() the first parameteris the element you want to create like P be sure to wright it in capital letters and the second parameter is the element you want to append it to the third parameter is the id you would like to give that element
+sl.createElement = function (sel, sel1, sel2) {
+   var father = document.getElementsByTagName(sel1)[0];  
+  
+   // Create new Element 
+   var elem = document.createElement(sel); 
+//give the element an id
+   elem.id = sel2;
+ 
+    
+
+   // Append link element to HTML head 
+   father.appendChild(elem);  
 }
