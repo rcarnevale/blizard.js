@@ -142,3 +142,6 @@ sl.createElement = function (sel, sel1, sel2) {
    // Append link element to HTML head 
    father.appendChild(elem);  
 }
+sl.changeBackgroundColor = function(sel, sel1) {
+   document.getElementById(sel).style.backgroundColor = sel1;
+}
