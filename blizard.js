@@ -1,7 +1,7 @@
 
 
 
-   //blizard.js version 0.4 BETA by Rohan Samra-O'Neill
+   //blizard.js version 0.5.1BETA by Rohan Samra-O'Neill
 /* 
 uses the atomo.css library created by Rohan Samra-O'Neill
 */
