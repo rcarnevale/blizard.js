@@ -1,6 +1,6 @@
 # blizard.js
 the brand new javascript library.
-# THIS LIBRARY IS NOT FULLY FINISHED AND YOU ARE WELCOME TO HELP WITH IT
+# This library is not fully finished and you are welcome to help with it
 # tutorial
 the code below is the link to the blizard.js library
         `<script src="http://blizardjs.ueuo.com/blizard.js"></script>`
