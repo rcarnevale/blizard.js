@@ -43,4 +43,6 @@ With sl.click the first parameter is the id of the element you would like to add
 With sl.id the first parameter is the id of the element you want to change the id of, the second parameter is the new id you would like to give that element, this can be used to change styles over time without using javascript.
 with sl.createElement() the first parameteris the element you want to create like P be sure to wright it in capital letters and the second parameter is the element you want to append it to the third parameter is the id you would like to give that element
 ` sl.createElement("P", "HEAD", "id")`
+With sl.changeBackgroundColor() the first parameter is the elememt you wish to change the background color of. The second parameter is the 
+color you would like to give that element such as "blue" or "red".
 # please report any issues you have with the tutorial or just with the library at all and the blizard.js team(me) will fix it to make your experiense with blizard.js better.
