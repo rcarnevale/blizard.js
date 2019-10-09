@@ -1,6 +1,7 @@
 # blizard.js
 the brand new javascript library.
 # This library is not fully finished and you are welcome to help with it
+# coming soon: blizard.canvas library
 # tutorial
 the code below is the link to the blizard.js library
         `<script src="http://blizardjs.ueuo.com/blizard.js"></script>`
