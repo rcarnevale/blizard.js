@@ -31,7 +31,7 @@ with sl.hide the parameter is the id of the element you want to hide
 ` sl.size("p1", "medium");`
  
 with sl.wait the first parameter is where you call the function you want to run, the second parameter is the amount of milliseconds you want towait to call that function
- `sl.wait("f1()", "1000");
+ `sl.wait("f1()", 1000);
  function f1() {
     alert('i love blizard.js');
  }`
