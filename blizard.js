@@ -96,8 +96,8 @@ sl.atomo = function () {
    var head = document.getElementsByTagName('HEAD')[0];  
   
    // Create new link Element 
-   var link = document.createElement('link'); 
-
+   var link = document.createElement('a'); 
+   
    // set the attributes for link element  
    link.rel = 'stylesheet';  
  
